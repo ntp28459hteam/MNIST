@@ -31,6 +31,6 @@ print("Compute predictions")
 predicted = clf_model.predict(test_x)
 print (predicted)
 
-print("Accuracy: ", accuracy_score(expected, predicted))
+# print("Accuracy: ", accuracy_score(expected, predicted))
 # result = clf_model.score(test_x, expected)
 # print(result)
